@@ -1,0 +1,9 @@
+# Archivo con credenciales reales 
+.env
+
+# Caché de Python
+__pycache__/
+*.pyc
+
+# Configuración del editor
+.vscode/
