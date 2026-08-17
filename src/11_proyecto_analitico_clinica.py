@@ -32,7 +32,7 @@ try:
             data=df, ax = ax[1,0])
         sns.scatterplot(data=df, x="edad", y="monto", ax=ax[1,1], hue="estado")
         plt.tight_layout()
-        plt.show()
         plt.savefig("dashboard_analitico_salud.png")
+        plt.show()
 except Error as e:
     print(f"Error {e}")
